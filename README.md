@@ -42,7 +42,7 @@ F → Text color: White
 
 ## 🎯 Purpose
 
-This project was built to practice:
+#### This project was built to practice:
 
 Function design
 
@@ -53,5 +53,11 @@ Conditional logic
 Clean code structure
 
 Basic console UI customization
+
+## 📸 Example Output (88 kg, 136 cm)
+
+136 cm is converted to meters during the calculation and calculated as 1.36 meters.The program calculates a BMI of 47.58 and classifies it as Obese. <br>
+<img width="584" height="266" alt="image" src="https://github.com/user-attachments/assets/983f85fc-47df-4cbe-a113-c5d66e7375be" />
+
 
 
