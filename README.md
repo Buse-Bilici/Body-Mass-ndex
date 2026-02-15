@@ -12,15 +12,21 @@ This project calculates BMI based on user input and classifies the result into s
 -Float-based precise BMI calculation <br>
 -Console color customization <br>
 -Formatted BMI output (2 decimal precision) <br>
+🌿Green themed console <br>
  ### Classification into: <br>
 -Underweight <br>
 -Normal <br>
 -Overweight <br>
--Obese 
+-Obese  
 
 ## 🧠 How It Works
 
 The BMI is calculated using the standard formula: <br>
-➡️ BMI = weight / (height × height)  <br>
+➡️ **BMI = weight / (height × height)**  <br>
 If the entered height is greater than 3.0, the program assumes the value is in centimeters and converts it to meters before performing the calculation.
 
+🎨 Console Customization
+
+The program uses:  system("color 2F");  <br>
+2 → Background color: Green <br>
+F → Text color: White
