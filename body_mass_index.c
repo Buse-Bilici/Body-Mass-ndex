@@ -2,9 +2,12 @@
 #include <stdio.h>
 
 
-int bodyMassIndex(float weight , float height)
+float bodyMassIndex(float weight , float height)
 {
-    int bmi = weight / (height*height);  // bmi = body mass index
+    if (height > 3.0) {
+    height = height / 100.0;  //If height is greater than 3 (e.g., 136), it means it was entered in cm. Convert it to meters and calculate accordingly.
+}
+    float bmi = weight / (height*height);  // bmi = body mass index
     return bmi;
 }
 
@@ -22,7 +25,8 @@ int main() {
     printf("Enter your height : ");
     scanf("%f", &height);
 
-    int result = bodyMassIndex(weight,height);
+    float result = bodyMassIndex(weight,height);
+    printf("Your BMI: %.2f\n\n", result);  //This line of the code allows us to see the result on the screen.
 
     if( result<18)
     printf("underweight");
@@ -32,7 +36,8 @@ int main() {
     printf("overweight");
     else
     printf("obese");
-   
+
+printf("\nPress Enter to exit...");   
 getchar();
 getchar();
     
