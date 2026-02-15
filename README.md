@@ -7,13 +7,14 @@ This project calculates BMI based on user input and classifies the result into s
 
 🚀 Features
 
--User input for weight (kg) and height
--Automatic height conversion (centimeters to meters if needed)
--Float-based precise BMI calculation
--Classification into:
--Underweight
--Normal
--Overweight
--Obese
--Console color customization
--Formatted BMI output (2 decimal precision)
+-User input for weight (kg) and height <br>
+-Automatic height conversion (centimeters to meters if needed) <br>
+-Float-based precise BMI calculation <br>
+-Console color customization <br>
+-Formatted BMI output (2 decimal precision) <br>
+ ## Classification into: <br>
+-Underweight <br>
+-Normal <br>
+-Overweight <br>
+-Obese 
+
