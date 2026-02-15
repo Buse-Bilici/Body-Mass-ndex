@@ -25,8 +25,21 @@ The BMI is calculated using the standard formula: <br>
 ➡️ **BMI = weight / (height × height)**  <br>
 If the entered height is greater than 3.0, the program assumes the value is in centimeters and converts it to meters before performing the calculation.
 
-🎨 Console Customization
+# 🎨 Console Customization
 
-The program uses:  system("color 2F");  <br>
+The program uses: system("color 2F");  <br>
 2 → Background color: Green <br>
 F → Text color: White
+
+# 📊 BMI Classification Logic
+
+| **BMI Range** | **Category** |
+|:-------------:|:------------:|
+| BMI < 18      | Underweight  |
+| 18 ≤ BMI < 25 | Normal       |
+| 25 ≤ BMI < 30 | Overweight   |
+| BMI ≥ 30      | Obese        |
+
+
+
+
