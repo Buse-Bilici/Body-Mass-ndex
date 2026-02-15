@@ -12,7 +12,7 @@ float bodyMassIndex(float weight , float height)
 }
 
 int main() {
-    system("color 2F");  // 0 = siyah arka plan, A = açık yeşil yazı
+    system("color 2F");  // 2 = Background color - Green , F = Text color - White
 
     float weight;
     float height;
