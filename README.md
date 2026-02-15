@@ -18,3 +18,9 @@ This project calculates BMI based on user input and classifies the result into s
 -Overweight <br>
 -Obese 
 
+## 🧠 How It Works
+
+The BMI is calculated using the standard formula: <br>
+➡️ BMI = weight / (height × height)  <br>
+If the entered height is greater than 3.0, the program assumes the value is in centimeters and converts it to meters before performing the calculation.
+
